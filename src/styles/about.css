@@ -1,0 +1,38 @@
+body {
+   background-color: #d9d9d9;
+}
+
+.bag-container {
+    margin: 3% 12.5% 0px 12.5%;
+}
+.bag-container > .bag-title {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+
+.bag-container > .bag-title > .bag-titledisc {    
+    color: #00011C;
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.bag-container > .bag-title > .bag-abouttitle {
+    color: #00011C;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    /* padding: 20px; */
+    text-align: center;
+    display: block;
+    clear: both;
+    padding-left: 19px;
+    padding-bottom: 9px;
+}
+.bag-aboutbody > .bag-leftaboutbody >.img >img {
+    width: 100%;
+   height: 200px;
+}

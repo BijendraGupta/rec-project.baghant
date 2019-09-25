@@ -1,0 +1,150 @@
+.bag-navbar {
+    background-color: #243a51;
+    color: #fff;
+    min-height: 50px;
+}
+
+
+.menu-bar {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+ div.bag-navitem:hover {
+    background-color: #0a0a0a;
+    color: #28f503;
+    text-decoration: none;
+   }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+   .bag-right {
+       float: right;
+    }
+
+   .bag-left {
+    color: #fff;
+    font-size: 25px;
+    font-family: bold;
+    padding: 5px 0px 0px 11px;
+    float: left;
+    /* padding-right: 44px; */
+    margin-right: 13px;
+    }
+
+  .bag-navitem {
+    float: left;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #f5d80e;
+   }
+   
+   .bag-menuicon {
+       display: none;
+   }
+
+   .bag-menu > .bag-navitem {
+    display: none;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+     .bag-left {
+    color: #fff;
+    font-size: 25px;
+    font-family: bold;
+    padding: 5px 0px 0px 11px;
+    float: left;
+}
+
+.bag-menuicon {
+       display: block;
+       float: right;
+       padding: 5px;
+       cursor: pointer;
+   }
+
+.bag-navitem {
+    display: none;
+   }
+
+.bag-menu {
+    background-color: #243a51;
+    width: 100%;
+    min-height: 296px;  
+}
+
+.bag-menu > .bag-navitem {
+    display: block;
+    clear: both;
+    padding-left: 14px;
+    cursor: pointer;
+    min-height: 49.4px;
+    padding-top: 14px;
+    width: 100%;
+    color: #f5d80e;
+   }
+}
+.video-mp4{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+/*
+
+*/
+
+.bag-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    border-left: 16px solid pink;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spiner 2s linear infinite;
+    animation: spiner 2s linear infinite;
+    z-index: 6000;
+    background: transparent;
+  }
+  
+  .display_none {
+      display: none;
+  }
+  @-webkit-keyframes spiner {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spiner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .pdf_btn {
+    width: 64px;
+    height: 20px;
+    color: #ffffff;
+    background-color: green;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    float: left;
+  }
+  .active {
+    background-color: #0a0a0a;
+    color: #28f503;
+    text-decoration: none;
+  }

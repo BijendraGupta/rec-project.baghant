@@ -1,0 +1,58 @@
+.tc-container{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    background-color: #fff;
+    width: 76%;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 12%;
+    height: 85%;
+    overflow: scroll;
+    top: 72px;
+    z-index: 20;
+    position: absolute;
+    
+}
+.tc-header {
+    text-align: center;
+}
+.header-heading{    
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1em;
+    margin-top: 5px;
+
+}
+.tc-bd-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1em;
+
+}
+.tc-bd-text{
+    margin-bottom: 10px;
+    margin-top: -15px;
+
+}
+.tc-footer{
+
+}
+.tcbtn{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bc-r {background-color: #f44336;} /* Red */ 
+input[type="checkbox"] {
+    height: 29px;
+    width: 17px;
+}

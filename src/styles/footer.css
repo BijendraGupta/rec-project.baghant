@@ -1,0 +1,79 @@
+
+ .footer-upperright-container:hover {    
+    text-decoration: underline;
+    cursor: pointer;
+   }
+
+.footer-lower-container {
+    background-color: #243a51;
+    color: #ffffff;
+    font-size: 14px;
+    /* font-weight: bold; */
+    padding-top: 20px;
+    min-height: 60px;
+    text-align: center;
+}
+
+@media only screen and  (max-width: 524px) {
+     
+ .footer-upper-container {
+    min-height: 66px;
+    background-color: #00001a;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px 1px 1px 10px;
+    margin-top:12px;
+}
+
+.footer-upper-container > .footer-upperleft-container {
+    float: left;
+    width: 87%;
+    margin-left: 12.5%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px 1px 1px 10px;
+}
+
+.footer-upper-container > .footer-upperright-container {
+    float: left;
+    width: 87%;
+    margin-left: 12.5%;
+    padding: 1px 1px 3px 10px;
+}
+}
+@media only screen and  (min-width:525px ) {
+
+ .footer-upper-container {
+    min-height: 66px;
+    background-color: #00001a;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 7px 1px 1px 10px;
+    margin-top:12px;
+}
+
+.footer-upper-container > .footer-upperleft-container {
+    float: left;
+    width: 40%;
+    margin-left: 12.5%;
+    
+}
+
+.footer-upper-container > .footer-upperright-container {
+    float: left;
+    width: 40%;
+    margin-left: 12.5%;
+    display: block;
+}
+
+}
+footer{
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   clear: both;
+}

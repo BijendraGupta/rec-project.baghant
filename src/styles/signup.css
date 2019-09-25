@@ -1,0 +1,233 @@
+
+@media only screen and (min-width: 800px) {
+footer{
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-top: 9px;
+   clear: both;
+}
+.signup-form {
+    margin: 5% 12.5% 4% 12.5%;
+    background-color: #00021D;
+    min-height: 588px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.signup-left {
+    background: #f2f2f2;
+    min-height: 539px;;
+    width: 454px;
+    /* top: 67px; */
+    float: left;
+    border-radius: 20px;
+    margin-top: -20px;
+    padding-left: -13px;
+    margin-left: 18px;
+}
+.signup-form > .signup-left > form >.signup-profile {
+    height: 95px;
+    width: 95px;
+    background: #ffffff;
+    border-radius: 50px;
+    margin-left: 81px;
+    margin-top: 16px;
+    border: 1px solid #ffffff;
+}
+.signup-form > .signup-left > form >.signup-profile > img {
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
+}
+.signup-form > .signup-left >form>.signup-txt {
+    color: #0000ff;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 5px;
+}
+.signup-form > .signup-left >form>.signup-ele > input{
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 337px;
+    height: 35px;
+    border-radius: 28px;
+    padding-left: 7px;
+    color: #0000ff;
+}
+.signup-rem-check >input{
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    background-color: #0000ff;
+    margin-left: 7px;
+}
+.signup-rem-check > p{    
+    margin-right: 97px;
+    color: dodgerblue;
+    padding-top: 7px;
+    text-decoration: underline;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+form > .signup-control >.signup-btn >button {
+    width: 159px;
+    margin-left: 9px;
+    border-radius: 17px;
+    height: 33px;
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.add-sgnup {
+    padding-top: 25px;
+    /* margin-top: -56px; */
+    text-align: left;
+    padding-left: 8px;
+    color: #000000;
+}
+.add-sgnup > article> p{
+    text-decoration: underline;
+    padding-left:0px;
+    cursor: pointer;
+}
+.signup-right {
+    display: block;
+    float: left;
+    width: 40%;
+}
+.signup-right >.add-sgnup{
+    text-align: center;
+}
+.signup-right>.add-sgnup>article{
+    padding-top: 237px;
+    color: #ffffff;
+    /* padding-left: 34px; */
+    /* align-items: center; */
+    text-align: center;
+}
+}
+.signup-left > .add-sgnup{
+    display: none;
+}
+
+@media screen and (max-width: 1074px) and (min-width: 800px) {
+    .signup-right > .add-sgnup{
+        display: none;
+    }
+    
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 800px) {
+
+.signup-form {
+    margin: 10% 12.5% 4% 12.5%;
+}
+
+.signup-left {
+    background: #f2f2f2;
+    min-height: 340px;
+    width: 266px;
+    /* top: 67px; */
+    float: left;
+    border-radius: 20px;
+    margin-top: -20px;
+    padding-left: -13px;
+    margin-left: 18px;
+}
+.signup-form > .signup-left > form >.signup-profile {
+    height: 95px;
+    width: 95px;
+    background: #ffffff;
+    border-radius: 50px;
+    margin-left: 81px;
+    margin-top: 16px;
+    border: 1px solid #ffffff;
+}
+.signup-form > .signup-left > form >.signup-profile > img {
+    height: 95px;
+    width: 95px;
+    border-radius: 50px;
+}
+.signup-form > .signup-left > form >.signup-txt {
+    color: #0000ff;
+    font-weight: bold;
+    margin-top: 12px;
+    padding-left: 5px;
+}
+.signup-form > .signup-left > form >.signup-ele > input{
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 225px;
+    height: 35px;
+    border-radius: 28px;
+    padding-left: 7px;
+    color: #0000ff;
+}
+.signup-rem-check >input{
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    background-color: #0000ff;
+    margin-left: 7px;
+}
+.signup-rem-check > p{
+    margin-right: 97px;
+    color: dodgerblue;
+    padding-top: 7px;
+    text-decoration: underline;
+    padding-left: 10px;
+    cursor: pointer;
+    display: inline;
+}
+
+form > .signup-control >.signup-btn >button {
+    width: 159px;
+    margin-left: 9px;
+    border-radius: 17px;
+    height: 33px;
+    color: #0000ff;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.signup-right {
+    display: none;
+}
+.signup-left >form> .add-sgnup {
+    display: block;
+    padding-left:20px;
+    cursor: pointer;
+}
+.signup-left >form> .add-sgnup  p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding-top: 9px;
+   clear: both;
+}
+
+}
+.tc-chkbox{
+    float: left;
+    margin-right: 5px;
+}
+.text-help{
+    color: #ff0044;
+}
+.has-danger input{
+    border: 1px solid red;
+}
