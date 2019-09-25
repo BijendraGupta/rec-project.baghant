@@ -4,8 +4,8 @@ The **Baghant Institute** Application
 ```
   -Step 1. Clone this project git clone 
   -Step 2. go to rec-project.baghant [cd rec-project.baghant]
-  -Step 3. npm start
-  -Step 4. open Browser and hit 
+  -Step 3. npm install
+  -Step 4. npm start then open Browser and hit 
        <a href=">http://localhost:3000/login</a>
 ```
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
