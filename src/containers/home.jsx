@@ -41,8 +41,8 @@ import {setCookie, getCookie} from '../components/cookies'
                 <section className="bag-container">
 
                     <section className="bag-title">
-                        <div className="bag-titleheading">Baghant Institute</div>
-                        <div className="bag-titledisc"> Think Different with us!</div>
+                        <div className="bag-titleheading">Coders of Bihar</div>
+                        <div className="bag-titledisc"> Where coding meets talent!</div>
                     </section>
 
                     <section className="bag-service" >
@@ -55,7 +55,7 @@ import {setCookie, getCookie} from '../components/cookies'
                         </div>
                         <div className="bag-servicecomponent">
                             <div className="bag-servicecomponentheading">Services</div>
-                            <div className="bag-servicecomponentbody">The Art of Baghant Institute offers a unique and comprehensive training and guide combining  study with mindfulness-awareness techniques. Our programs and individual sessions include state-of-the-art instruction in  all subject along with instruction in innovative techniques for cultivating full-bodied engagement in practicing and for developing confidence and communicative power in performance.</div>
+                            <div className="bag-servicecomponentbody">The Art of Coders of Bihar offers a unique and comprehensive training and guide combining  study with mindfulness-awareness techniques. Our programs and individual sessions include state-of-the-art instruction in  all subject along with instruction in innovative techniques for cultivating full-bodied engagement in practicing and for developing confidence and communicative power in performance.</div>
                         </div>
                     </section>
 
@@ -70,7 +70,7 @@ import {setCookie, getCookie} from '../components/cookies'
                                 <div className="slide-desc">
                                     <h4>Bijendra Gupta</h4>
                                     <h4>CEO</h4>
-                                    <span>Bijendra gupta is the Chief Executive Officer of Baghant Institute and a member of our Board of Directors.Our mission is to help student around the world to achieve their Goal</span>
+                                    <span>Bijendra gupta is the Chief Executive Officer of Coders of Bihar and a member of our Board of Directors.Our mission is to help student around the world to achieve their Goal</span>
                                 </div>
                             </div>
 
@@ -79,7 +79,7 @@ import {setCookie, getCookie} from '../components/cookies'
                                 <div className="slide-desc">
                                     <h4>Ravi Mishra</h4>
                                     <h4>Executive Director and COO</h4>
-                                    <span>Ravi Mishra is the Executive Director and COO of Baghant Institute and a member of our Board of Directors.Our mission is to help student around the world to achieve their Goal</span>
+                                    <span>Ravi Mishra is the Executive Director and COO of Coders of Bihar and a member of our Board of Directors.</span>
                                 </div>
                             </div>
 
@@ -88,7 +88,7 @@ import {setCookie, getCookie} from '../components/cookies'
                                 <div className="slide-desc">
                                     <h4>Mohit Bisht</h4>
                                     <h4>Chief Marketing Officer</h4>
-                                    <span>Mohit Bisht is the Chief Marketing Officer of Baghant Institute and a member of our Board of Directors.He has been responsible for identifying new growth for company</span>
+                                    <span>Mohit Bisht is the Chief Marketing Officer of Coders of Bihar and a member of our Board of Directors.He has been responsible for identifying new growth for company</span>
                                 </div>
                             </div>
 

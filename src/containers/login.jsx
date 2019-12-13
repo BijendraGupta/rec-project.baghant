@@ -39,22 +39,11 @@ const validate = values => {
         super(props);
         this.state = {
             spinnerclasses:"display_none bag-loader",
-            data:{},
-            error:false,
-            errorMsg:{}
+            data:{}
         }
         if(getCookie("tokenId")!=="")
         this.props.history.push("/home");
     }
-
-    componentDidMount(){
-        fetch("https://jsonplaceholder.typicode.com/users").then((res)=>{
-          this.setState({data:res.json()});
-        }).catch(error=>
-                 {
-          this.setState({error:true,errorMsg:error})});
-     
-      }
 
     loginUser=(form)=> {
         this.setState({spinnerclasses:"bag-loader"});
@@ -83,8 +72,6 @@ const validate = values => {
        
         return (
             <div>
-                dfdfd
-                {this.state.error ?this.state.errorMsg: this.state.data}
                 <section className="login-form">
                     <section className="login-left">
                     <form onSubmit={handleSubmit(form=>this.loginUser(form))}>
@@ -93,12 +80,12 @@ const validate = values => {
                         </div>
                         <div className="login-txt">User Name</div>
                         <div className="login-ele">
-                        <Field tabindex="0" name="userName" component={renderField} type="text" placeholder="bijendragupta23@gmail.com" />
+                        <Field tabIndex="0" name="userName" component={renderField} type="text" placeholder="bijendragupta23@gmail.com" />
                         </div>
                         <div className="login-txt">Password</div>
-                        <div className="login-ele"><Field name="password" tabindex="0" component={renderField} type="password" placeholder="******" /></div>                        
+                        <div className="login-ele"><Field name="password" tabIndex="0" component={renderField} type="password" placeholder="******" /></div>                        
                         <div className="login-rem-check">
-                        <Field tabindex="0" name="keepSignIn" component="input" type="checkbox" defaultChecked={false}/><p>Keep me Signed In </p>
+                        <Field tabIndex="0" name="keepSignIn" component="input" type="checkbox" /><p>Keep me Signed In </p>
                         </div>
                         <div className="login-control">
                             <div className="login-btn">

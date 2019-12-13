@@ -19,7 +19,7 @@ export default class Header extends React.Component {
                     </div>
                 </div>
                 <div className="footer-lower-container">
-                    <div className="footer-upperleft-container">© 2019 Copyright: baghant.com</div>
+                    <div className="footer-upperleft-container">© 2020 Copyright: www.codersofbihar.com</div>
                 </div>
             </footer>
         );

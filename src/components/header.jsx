@@ -6,7 +6,7 @@ import {browserHistory} from 'react-router';
 // import { Route } from 'react-router-dom'
 import createHistory from 'history/createBrowserHistory';
 import {setCookie, getCookie} from './cookies'
-
+import logo from '../images/logor.png';
 const history = createHistory();
 export default class Header extends React.Component {
 
@@ -37,7 +37,10 @@ export default class Header extends React.Component {
         return (
             <header>
                 <div className="bag-navbar">
-                    <div className="bag-left">Baghant Institute</div>
+                    <div className="heading-logo">
+                            <img src={logo} alt="Logo" />
+                        </div>
+                    <div className="bag-left">Coders of Bihar</div>
                     <div className="bag-right">
                     {isLoginByCookies &&
                         <NavLink className="bag-navitem" activeClassName="active" to="/home">Home</NavLink>}

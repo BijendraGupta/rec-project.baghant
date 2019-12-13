@@ -42,7 +42,7 @@ class PasswordRecovery extends React.Component {
                 </div>
                 <div className="">
                     <div className="txt-elt">
-                        <Field tabindex="0" name="userName" component={renderField} type="text" placeholder="bijendragupta23@gmail.com" />
+                        <Field tabIndex="0" name="userName" component={renderField} type="text" placeholder="bijendragupta23@gmail.com" />
                     </div>
                 </div>
                 <div className="pass-control">

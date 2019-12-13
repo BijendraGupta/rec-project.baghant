@@ -141,22 +141,22 @@ class Signup extends React.Component {
                             </div>
                             <div className="signup-txt">Email ID</div>
                             <div className="signup-ele">
-                                <Field name="emailId" tabindex="0" component={renderField} type="text" placeholder="sample@gmail.com" />
+                                <Field name="emailId" tabIndex="0" component={renderField} type="text" placeholder="sample@gmail.com" />
                             </div>
                             <div className="signup-txt">Mobile No</div>
                             <div className="signup-ele">
-                                <Field name="mobileNo" tabindex="1" component={renderField} type="text" placeholder="+91-0000000000" />
+                                <Field name="mobileNo" tabIndex="1" component={renderField} type="text" placeholder="+91-0000000000" />
                             </div>                           
                             <div className="signup-txt">Enter Password</div>
                             <div className="signup-ele">
-                                <Field name="password"  tabindex="2" component={renderField} type="password" placeholder="******" />
+                                <Field name="password"  tabIndex="2" component={renderField} type="password" placeholder="******" />
                             </div>
                             <div className="signup-txt">Re-Enter Password</div>
                             <div className="signup-ele">
-                                <Field name="rePassword" tabindex="3" component={renderField} type="password" placeholder="******" />                                
+                                <Field name="rePassword" tabIndex="3" component={renderField} type="password" placeholder="******" />                                
                             </div>                           
                             <div className="signup-rem-check">
-                            <Field component={Checkbox} name="tc" tabindex="4"  />                                
+                            <Field component={Checkbox} name="tc" tabIndex="4"  />                                
                             <p onClick={this.showTcPoup.bind(this)}>By creating an account you agree to our Terms & Privacy. </p>                             
                             </div>
                             <div className="signup-control">

@@ -25,6 +25,7 @@
     }
 
    .bag-left {
+    margin-top: 6px;
     color: #fff;
     font-size: 25px;
     font-family: bold;
@@ -53,6 +54,7 @@
 
 @media only screen and (max-width: 800px) {
      .bag-left {
+    margin-top: 6px;
     color: #fff;
     font-size: 25px;
     font-family: bold;
@@ -148,3 +150,9 @@
     color: #28f503;
     text-decoration: none;
   }
+  .heading-logo > img {
+    float: left;
+    width: 46px;
+    height: 47px;
+    margin-top: 1.5px;
+}
